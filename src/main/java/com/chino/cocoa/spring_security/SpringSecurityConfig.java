@@ -56,6 +56,8 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
         //使用自定义
         auth.userDetailsService(myUserService);
 
+
+
         //使用数据库
 //        auth.jdbcAuthentication().usersByUsernameQuery("").authoritiesByUsernameQuery("")
 //                .passwordEncoder(new MyPasswordEncoder());
